@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/static/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    user-select: none;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+}
+
+.container h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid white;
+    margin-bottom: 50px;
+    padding: 14px;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid white;
+    transition: 0.3s all ease;
+    border-radius: 10px;
+}
+
+.box:hover{
+    box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.box input{
+    width: 75%;
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    margin: 7px 0px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+.box input::placeholder{
+    color: white;
+}
+
+.box i{
+    padding: 0px 12px;
+    width: 58px;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    border: 2px solid white;
+    margin: 12px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+    padding: 10px 25px;
+    transition: 0.3s all ease;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+    border: 2px solid white;
+    box-shadow: 2px 2px 7px rgb(147, 163, 177), -2px -2px 7px rgb(147, 163, 177);
+}
+
+.btn:active{
+    background: rgb(92, 92, 92);
+    color: black;
+    border: 2px solid rgb(92, 92, 92);
+}
+
+.btn i{
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
+}
+
+#btn2{
+    position: absolute;
+    right: 0px;
+}
+
+#newcont{
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 800;
+    transition: 0.3s all ease;
+    background-color: white;
+    margin: 12px 0px;
+    padding: 19px 92px;
+    display: block;
+    box-shadow: 2px 2px 7px rgb(147, 163, 177), -2px -2px 7px rgb(147, 163, 177);
+    transition: 0.7s padding ease, 3s opacity ease;
+    display: none;
+}
+
+#newcont{
+    color: black;
+}
+
+#newcont h1{
+    margin: 10px;
+    left: 0;
+    top: 0;
+    border-bottom: 5px solid black;
+    text-align: left;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#boxOne{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.7s all ease;
+}
+
+.box3{
+    position: absolute;
+    top: 45%;
+    left: 23px;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+    transition: 0.3s all ease;
+}
+
+.box3 input{
+    width: 95%;
+    outline: none;
+    background: none;
+    border: none;
+    margin: 2px 0px;
+    padding: 10px 288px 10px 3px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+#newbox3{
+    top: 63%;
+}
+
+.box3:hover{
+    box-shadow: 0 8px 8px -4px rgb(87, 89, 90);
+}
+
+.btn2{
+    position: absolute;
+    bottom: 0
+}
+
+#btn4{
+    right: 15px;
+    position: absolute;
+    background: none;
+    bottom: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s all ease;
+}
+
+#btn4:hover{
+    color: rgb(70, 69, 69);
+}
+
+#btn4 i{
+    margin-left: 5px;
+}
+
+#btn3{
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    margin: 12px 0px 12px 25px;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+    padding: 10px 25px;
+    transition: 0.3s all ease;
+}
+
+#btn3:hover{
+    background: black;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px rgb(87, 97, 105), -2px -2px 7px rgb(87, 97, 105);
+}
+
+#btn3:active{
+    background: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(70, 70, 70);
+}
+
+#btn3 i{
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
+}
+
+#boxOne{
+    opacity: 0;
+    display: none;
+}
